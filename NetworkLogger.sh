@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# sudo apt-get install nmap speedtest-cli -y
+
 mkdir -p logs
 
 dirNetworkDown=("./logs/networkDown.txt")
@@ -8,7 +10,7 @@ dirSpeedTest=("./logs/speedTest.txt")
 dirPingGateway=("./logs/pingGateway.txt")
 dirNmap=("./logs/nmap.txt")
 
-addressGateway=("192.168.0.1")
+addressGateway=("_gateway")
 classIP=("192.168.0.0/24")
 
 while :
